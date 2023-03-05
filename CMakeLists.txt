@@ -12,7 +12,7 @@ file(GLOB_RECURSE all_sources ${CMAKE_CURRENT_LIST_DIR}/pystring.c*)
 
 add_library(${PROJECT_LIB_NAME} STATIC ${all_headers};${all_sources})
 
-tkl_initialize_library_target_defaults(${PROJECT_LIB_NAME} "32bit")
+tkl_initialize_library_target_defaults(${PROJECT_LIB_NAME} "anybit")
 
 tkl_source_groups_from_dir_list("Header Files" FILES ${CMAKE_CURRENT_LIST_DIR} *.h*)
 tkl_source_groups_from_dir_list("Source Files" FILES ${CMAKE_CURRENT_LIST_DIR} *.c*)
