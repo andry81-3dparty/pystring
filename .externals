@@ -1,0 +1,7 @@
+repositories:
+
+  _externals/1_1_3_20200204:
+    type:             git
+    url:              https://github.com/andry81-3dparty/pystring
+    version:          '1_1_3_20200204'
+    fetch-to-branch:  '1_1_3_20200204'
